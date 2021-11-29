@@ -40,16 +40,7 @@ function App() {
       <div className="wrapper">
         <div className="app_videos">
           {videos.map(
-            ({
-              autoplay,
-              url,
-              channel,
-              description,
-              song,
-              likes,
-              messages,
-              shares,
-            }) => (
+            ({ url, channel, description, song, likes, messages, shares }) => (
               <Video
                 key={url}
                 url={url}
