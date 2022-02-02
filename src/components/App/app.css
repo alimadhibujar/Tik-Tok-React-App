@@ -39,7 +39,7 @@ html {
 }
 @media (max-width: 500px) {
   .wrapper {
-    background-image: url("");
+    background-image: none;
     height: 100vh;
     width: 100vw;
   }
