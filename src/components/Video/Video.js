@@ -16,7 +16,10 @@ const Video = ({
   const [playing, setPlaying] = useState(false);
   const ref = useRef(null);
 
-  const isVisible = useIntersectionObserver(ref, { threshold: 0.3, rootMargin: "0px",});
+  const isVisible = useIntersectionObserver(ref, {
+    threshold: 0.3,
+    rootMargin: "0px",
+  });
   const onVideoClick = () => {
     if (playing) {
       ref.current.pause();

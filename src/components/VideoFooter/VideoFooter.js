@@ -2,7 +2,7 @@ import React from "react";
 import "./videoFooter.css";
 import MusicNoteicon from "@material-ui/icons/MusicNote";
 import Ticker from "react-ticker";
-import disk from "../../img/disk.png";
+import disk from "../../assets/img/disk.png";
 
 const VideoFooter = ({ channel, description, song }) => {
   return (
