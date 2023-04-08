@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "./video.css";
 import VideoFooter from "../VideoFooter/VideoFooter";
 import VideoSidebar from "../VideoSidebar/VideoSidebar";
-import useIntersectionObserver from "../CustomHook/useIntersectionObserver";
+import useIntersectionObserver from "../hook/useIntersectionObserver";
 import VideoPlayButton from "../VideoPlayButton/VideoPlayButton";
 const Video = ({
   url,
@@ -20,6 +20,7 @@ const Video = ({
     threshold: 0.3,
     rootMargin: "0px",
   });
+
   const onVideoClick = () => {
     if (playing) {
       ref.current.pause();
