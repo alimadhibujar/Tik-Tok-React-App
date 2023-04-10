@@ -1,9 +1,18 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import "./app.css";
 import Video from "../Video/Video";
-import videos from "../../assets/data.json";
+import data from "../../assets/data.json";
 
 function App() {
+  const [videos, setVideos] = useState([]);
+  useEffect(() => {
+    // fetch('../../assets/data.json')
+    // .then(response => response.json())
+    // .then(data => setVideos(data));
+    setVideos(data);
+  }, []);
+
   return (
     <div className="app">
       <div className="wrapper">
