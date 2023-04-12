@@ -2,15 +2,20 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./app.css";
 import Video from "../Video/Video";
-import data from "../../assets/data.json";
 
 function App() {
   const [videos, setVideos] = useState([]);
-  useEffect(() => {
-    // fetch('../../assets/data.json')
-    // .then(response => response.json())
-    // .then(data => setVideos(data));
+
+  const getVideos = async () => {
+    const response = await fetch(
+      "http://localhost:3000/Tik-Tok-React-App/data.json"
+    );
+    const data = await response.json();
     setVideos(data);
+  };
+
+  useEffect(() => {
+    getVideos();
   }, []);
 
   return (
