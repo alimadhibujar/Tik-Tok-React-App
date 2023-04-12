@@ -7,7 +7,8 @@ import data from "../../assets/data.json";
 function App() {
   const [videos, setVideos] = useState([]);
   useEffect(() => {
-    // fetch('../../assets/data.json')
+    // for local fetch json data must be in public folder
+    // fetch('http://localhost:3000/Tik-Tok-React-App/data.json')
     // .then(response => response.json())
     // .then(data => setVideos(data));
     setVideos(data);
