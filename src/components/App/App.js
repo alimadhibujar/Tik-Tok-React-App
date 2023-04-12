@@ -8,7 +8,7 @@ function App() {
 
   const getVideos = async () => {
     const response = await fetch(
-      "https://github.com/alimadhibujar/Tik-Tok-React-App/blob/main/public/data.json"
+      "https://github.com/alimadhibujar/Tik-Tok-React-App/main/public/data.json"
     );
     const data = await response.json();
     setVideos(data);
