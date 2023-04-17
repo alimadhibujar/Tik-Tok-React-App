@@ -12,6 +12,13 @@ function App() {
     // .then(response => response.json())
     // .then(data => setVideos(data));
     setVideos(data);
+    // instruction info
+    const timer = setTimeout(() => {
+      alert(
+        `Click on the video to play or to pause it, also scroll to see all the videos. Happy watching :)`
+      );
+    }, 1000);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
