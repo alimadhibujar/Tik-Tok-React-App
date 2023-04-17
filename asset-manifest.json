@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Tik-Tok-React-App/static/css/main.97ab3b0b.chunk.css",
-    "main.js": "/Tik-Tok-React-App/static/js/main.6d85c080.chunk.js",
-    "main.js.map": "/Tik-Tok-React-App/static/js/main.6d85c080.chunk.js.map",
+    "main.js": "/Tik-Tok-React-App/static/js/main.5023d787.chunk.js",
+    "main.js.map": "/Tik-Tok-React-App/static/js/main.5023d787.chunk.js.map",
     "runtime-main.js": "/Tik-Tok-React-App/static/js/runtime-main.a0815ad9.js",
     "runtime-main.js.map": "/Tik-Tok-React-App/static/js/runtime-main.a0815ad9.js.map",
-    "static/js/2.77c85306.chunk.js": "/Tik-Tok-React-App/static/js/2.77c85306.chunk.js",
-    "static/js/2.77c85306.chunk.js.map": "/Tik-Tok-React-App/static/js/2.77c85306.chunk.js.map",
+    "static/js/2.2da767cd.chunk.js": "/Tik-Tok-React-App/static/js/2.2da767cd.chunk.js",
+    "static/js/2.2da767cd.chunk.js.map": "/Tik-Tok-React-App/static/js/2.2da767cd.chunk.js.map",
     "index.html": "/Tik-Tok-React-App/index.html",
     "static/css/main.97ab3b0b.chunk.css.map": "/Tik-Tok-React-App/static/css/main.97ab3b0b.chunk.css.map",
-    "static/js/2.77c85306.chunk.js.LICENSE.txt": "/Tik-Tok-React-App/static/js/2.77c85306.chunk.js.LICENSE.txt",
+    "static/js/2.2da767cd.chunk.js.LICENSE.txt": "/Tik-Tok-React-App/static/js/2.2da767cd.chunk.js.LICENSE.txt",
     "static/media/app.css": "/Tik-Tok-React-App/static/media/SamsungS8.530b2b8e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a0815ad9.js",
-    "static/js/2.77c85306.chunk.js",
+    "static/js/2.2da767cd.chunk.js",
     "static/css/main.97ab3b0b.chunk.css",
-    "static/js/main.6d85c080.chunk.js"
+    "static/js/main.5023d787.chunk.js"
   ]
 }
