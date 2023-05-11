@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Tik-Tok-React-App/static/css/main.b49a0a13.chunk.css",
-    "main.js": "/Tik-Tok-React-App/static/js/main.51020591.chunk.js",
-    "main.js.map": "/Tik-Tok-React-App/static/js/main.51020591.chunk.js.map",
+    "main.js": "/Tik-Tok-React-App/static/js/main.3c5a20d7.chunk.js",
+    "main.js.map": "/Tik-Tok-React-App/static/js/main.3c5a20d7.chunk.js.map",
     "runtime-main.js": "/Tik-Tok-React-App/static/js/runtime-main.a0815ad9.js",
     "runtime-main.js.map": "/Tik-Tok-React-App/static/js/runtime-main.a0815ad9.js.map",
     "static/js/2.070a149a.chunk.js": "/Tik-Tok-React-App/static/js/2.070a149a.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.a0815ad9.js",
     "static/js/2.070a149a.chunk.js",
     "static/css/main.b49a0a13.chunk.css",
-    "static/js/main.51020591.chunk.js"
+    "static/js/main.3c5a20d7.chunk.js"
   ]
 }
